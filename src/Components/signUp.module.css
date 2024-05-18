@@ -1,0 +1,26 @@
+.signUpSection{
+    display: flex;
+    width: 60%;
+    max-width: 600px;
+    height: 600px;
+    flex-direction: column;
+
+}
+    .signUpSection h1{
+        color: #fff;
+        font-size: 22px;
+        font-weight: 900;
+        height: 10%;
+    }
+        .signUpSection form{
+            display: flex;
+            flex-direction: column;
+            height: 60%;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 90%;
+        }
+            .signUpSection form button{
+                width: 90%;
+                height: 40px;
+            }

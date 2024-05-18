@@ -1,0 +1,30 @@
+.alertSectino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: lightgreen;
+    left: 0;
+}
+    .alertSectino div{
+        width: 50%;
+        height: 50%;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: lightseagreen;
+    }
+        .alertSectino div span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            height: auto;
+            font-size: 18px;
+            font-weight: 900;
+            font-style: italic;
+        }
